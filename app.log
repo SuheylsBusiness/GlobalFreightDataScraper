@@ -1,0 +1,65 @@
+2024-03-26 13:24:53,993 - ERROR - Error getting contact details: 'NoneType' object is not subscriptable
+2024-03-26 13:28:40,713 - INFO - Script execution completed.
+2024-03-26 13:31:20,002 - INFO - Script execution completed.
+2024-03-26 13:35:07,615 - INFO - Logging setup complete.
+2024-03-26 13:35:07,617 - INFO - Configuration file read successfully.
+2024-03-26 13:35:07,619 - INFO - Successfully read JSON file: locations.json
+2024-03-26 13:35:07,815 - INFO - Company URLs retrieved for Afghanistan.
+2024-03-26 13:35:08,012 - INFO - Company URLs retrieved for Albania.
+2024-03-26 13:35:15,268 - INFO - Company URLs retrieved for Algeria.
+2024-03-26 13:35:15,455 - INFO - Company URLs retrieved for Angola.
+2024-03-26 13:35:22,706 - INFO - Company URLs retrieved for Argentina.
+2024-03-26 13:35:22,938 - INFO - Company URLs retrieved for Armenia.
+2024-03-26 13:35:23,209 - INFO - Company URLs retrieved for Australia.
+2024-03-26 13:35:26,861 - INFO - Logging setup complete.
+2024-03-26 13:35:26,867 - INFO - Configuration file read successfully.
+2024-03-26 13:35:26,868 - INFO - Successfully read JSON file: locations.json
+2024-03-26 13:35:27,089 - INFO - Company URLs retrieved for Afghanistan.
+2024-03-26 13:35:27,279 - INFO - Company URLs retrieved for Albania.
+2024-03-26 13:35:27,488 - INFO - Company URLs retrieved for Algeria.
+2024-03-26 13:35:28,085 - INFO - Company URLs retrieved for Angola.
+2024-03-26 13:35:36,381 - INFO - Company URLs retrieved for Argentina.
+2024-03-26 13:35:36,610 - INFO - Details scraped for company at /company/asia-pamir-logistics-ltd.
+2024-03-26 13:35:36,789 - INFO - Contact details retrieved for company ID: 341.
+2024-03-26 13:35:37,019 - INFO - Details scraped for company at /company/airglow-afghanistan-logistics-services-company.
+2024-03-26 13:35:37,282 - INFO - Contact details retrieved for company ID: 342.
+2024-03-26 13:35:37,477 - INFO - Details scraped for company at /company/dyrrahsped-sh-p-k.
+2024-03-26 13:35:37,752 - INFO - Contact details retrieved for company ID: 344.
+2024-03-26 13:35:37,971 - INFO - Details scraped for company at /company/pelikan-transport.
+2024-03-26 13:35:41,183 - INFO - Contact details retrieved for company ID: 343.
+2024-03-26 13:35:41,375 - INFO - Details scraped for company at /company/pyramid-shipping.
+2024-03-26 13:35:41,576 - INFO - Contact details retrieved for company ID: 1158.
+2024-03-26 13:35:41,847 - INFO - Details scraped for company at /company/globtainer-logistique-algerie.
+2024-03-26 13:35:42,109 - INFO - Contact details retrieved for company ID: 1156.
+2024-03-26 13:35:49,335 - INFO - Details scraped for company at /company/altisa.
+2024-03-26 13:35:49,553 - INFO - Contact details retrieved for company ID: 6166.
+2024-03-26 13:35:58,339 - INFO - Logging setup complete.
+2024-03-26 13:35:58,340 - INFO - Configuration file read successfully.
+2024-03-26 13:35:58,341 - INFO - Successfully read JSON file: locations.json
+2024-03-26 13:35:58,563 - INFO - Company URLs retrieved for Afghanistan.
+2024-03-26 13:35:58,749 - INFO - Company URLs retrieved for Albania.
+2024-03-26 13:35:58,944 - INFO - Company URLs retrieved for Algeria.
+2024-03-26 13:35:59,123 - INFO - Company URLs retrieved for Angola.
+2024-03-26 13:35:59,333 - INFO - Company URLs retrieved for Argentina.
+2024-03-26 13:35:59,909 - INFO - Details scraped for company at /company/asia-pamir-logistics-ltd.
+2024-03-26 13:36:03,373 - INFO - Details scraped for company at /company/airglow-afghanistan-logistics-services-company.
+2024-03-26 13:36:03,786 - INFO - Details scraped for company at /company/dyrrahsped-sh-p-k.
+2024-03-26 13:36:04,189 - INFO - Details scraped for company at /company/pelikan-transport.
+2024-03-26 13:36:04,638 - INFO - Details scraped for company at /company/pyramid-shipping.
+2024-03-26 13:36:05,134 - INFO - Details scraped for company at /company/globtainer-logistique-algerie.
+2024-03-26 13:36:05,565 - INFO - Details scraped for company at /company/altisa.
+2024-03-26 13:36:13,039 - INFO - Details scraped for company at /company/ecu-line-algerie-sarl.
+2024-03-26 13:36:16,507 - INFO - Details scraped for company at /company/cargo-center--lda.
+2024-03-26 13:36:17,010 - INFO - Details scraped for company at /company/aronds-transitario.
+2024-03-26 13:36:20,621 - INFO - Details scraped for company at /company/transportes-universales-sacfym.
+2024-03-26 13:36:24,142 - INFO - Details scraped for company at /company/954-lincoln-s-a-.
+2024-03-26 13:36:31,590 - INFO - Details scraped for company at /company/airsealand-s-a-.
+2024-03-26 13:36:40,045 - INFO - Details scraped for company at /company/ganbatte-s-a-.
+2024-03-26 13:36:54,948 - INFO - Details scraped for company at /company/eaff-s-a-.
+2024-03-26 13:36:58,377 - INFO - Details scraped for company at /company/liber-line-srl.
+2024-03-26 13:37:01,856 - INFO - Details scraped for company at /company/q-l-solutions-latinoamerica-s-a.
+2024-03-26 13:37:02,362 - INFO - Details scraped for company at /company/endarco-s-a-.
+2024-03-26 13:37:05,627 - INFO - Data successfully saved to JSON: Outputs/20240326133705_18_records.json
+2024-03-26 13:37:05,734 - INFO - Data successfully saved to Excel: Outputs/20240326133705_18_records.xlsx
+2024-03-26 13:37:05,740 - ERROR - Database connection failed: Authentication plugin 'caching_sha2_password' is not supported
+2024-03-26 13:37:05,741 - INFO - Script execution completed.
