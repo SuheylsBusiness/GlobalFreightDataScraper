@@ -78,9 +78,28 @@ def scrape_company_details(base_url, company_url):
 
 def get_contact_details(base_url, company_id):
     try:
-        response = requests.post(f"{base_url}/in.ajax_company_company",
-                                 data=f"ajaxKey=&tx_wbdirectory_companies%5Baction%5D=showContact&tx_wbdirectory_companies%5Bcompany%5D={company_id}&tx_wbdirectory_companies%5Bcontroller%5D=Company",
-                                 headers={"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"},
+        # Constructing query parameters
+        url = f"{base_url}/in.ajax_company_company?no_cache=1&tx_wbdirectory_companies%5Baction%5D=showContact&tx_wbdirectory_companies%5Bcompany%5D={company_id}&tx_wbdirectory_companies%5Bcontroller%5D=Company"
+        headers = {
+          'Accept': '*/*',
+          'Accept-Encoding': 'gzip, deflate, br, zstd',
+          'Accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+          'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+          'Cookie': '_ga=GA1.1.848326561.1711370449; fe_typo_user=f2034ac05cf2a31dbc338d7d4e06d950; _ga_ZHJSMJVEM9=GS1.1.1711453756.2.1.1711454686.0.0.0',
+          'Origin': 'https://forwardingcompanies.com',
+          'Referer': 'https://forwardingcompanies.com/company/andreas-schmid-internationale-spedition-gmbh-%26-co--kg',
+          'Sec-Ch-Ua': '"Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"',
+          'Sec-Ch-Ua-Mobile': '?0',
+          'Sec-Ch-Ua-Platform': '"Windows"',
+          'Sec-Fetch-Dest': 'empty',
+          'Sec-Fetch-Mode': 'cors',
+          'Sec-Fetch-Site': 'same-origin',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+          'X-Requested-With': 'XMLHttpRequest'
+        }
+        response = requests.post(url,
+                                 data="ajaxKey=",
+                                 headers=headers,
                                  timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
         return {
